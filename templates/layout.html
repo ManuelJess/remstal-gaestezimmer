@@ -4,7 +4,7 @@
 <title>{% block title %}Welcome{% endblock %} — Winterbacher Gästezimmer</title>
 <body>
   {% block body %}{% endblock %}
-  <footer>
-    &copy; Copyright 2022 by Martin Häcker.
+  <footer title="Lezte aktualisierung: {{ datetime.now(tz=ZoneInfo('Europe/Berlin')) | datetimeformat('full') }}">
+    &copy; Urheberrecht {{ date.today().year }} by Winterbacher Gästezimmer.
   </footer>
 </body>
