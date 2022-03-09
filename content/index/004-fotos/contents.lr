@@ -1,0 +1,11 @@
+_model: index-page
+---
+title: Fotos
+---
+body:
+
+![Gemeinschaftsraum](/static/Flur Gemeinschaftsraum 1.jpeg)
+![Gästezimmer 1](/static/G1 Überblick.jpeg)
+![Gästezimmer 2](/static/G2 Überblick.jpeg)
+![Bad](/static/G1 Bad.jpeg)
+![Küche](/static/Küche 1.jpeg)
