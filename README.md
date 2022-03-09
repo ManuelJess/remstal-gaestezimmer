@@ -13,8 +13,8 @@ To make changes to the page, either do it locally, or just edit on github. GitHu
 
 - deploy to github pages
 - add build system on github
-- add Monteuerzimmer 35€ / night
-- make fotos a sliedeshow with ability to zoom into them
+- add Monteuerzimmer 35€ / Nacht mit Beschreibung(ev. keine Dusche im Zimmer)
+- make fotos a slideshow with ability to zoom into them, Fotos auch beschriften!
 - refine contact email with form that triggers the questions I need
 - add legalese
 - get domain for remstal gästezimmer and publish page
