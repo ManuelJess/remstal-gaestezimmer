@@ -5,6 +5,6 @@
 <body>
   {% block body %}{% endblock %}
   <footer title="Lezte aktualisierung: {{ datetime.now(tz=ZoneInfo('Europe/Berlin')) | datetimeformat('full') }}">
-    &copy; Urheberrecht {{ date.today().year }} by Winterbacher Gästezimmer.
+    &copy; {{ date.today().year }} Winterbacher Gästezimmer
   </footer>
 </body>
