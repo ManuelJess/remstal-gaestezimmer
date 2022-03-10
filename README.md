@@ -1,8 +1,8 @@
 # Readme
 
-To make changes to the page, either do it locally, or just edit on github. GitHub edits will be deployed immediately, local edits on push to GitHub.
+Um die Webseite zu ändern, entweder lokal installieren und bearbeiten oder direkt auf GitHub. GitHub änderungen werden sofort deployed, lokale Änderungen nach push.
 
-## How to build
+## Seite lokal aktualisieren
 
     python -m venv venv
     source venv/bin/activate
@@ -11,10 +11,8 @@ To make changes to the page, either do it locally, or just edit on github. GitHu
 
 ## TODO
 
-- deploy to github pages
-- add build system on github
-- add Monteuerzimmer 35€ / Nacht mit Beschreibung(ev. keine Dusche im Zimmer)
-- make fotos a slideshow with ability to zoom into them, Fotos auch beschriften!
+- Fotos auch beschriften!
+- Foto Slideshow und Zoom
 - refine contact email with form that triggers the questions I need
 - add legalese
 - get domain for remstal gästezimmer and publish page
