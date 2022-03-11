@@ -3,7 +3,10 @@
 {% block body %}
   {% set pages = site.query( this.path + '/index').include_undiscoverable(true).all() %}
   <header>
-    <h1>{{ this.title }}</h1>
+    <h1>{% for word in this.title.split() %}
+      <span>{{ word }}</span>
+      {% endfor %}
+      </h1>
     <nav>
       <ul>
         {% for page in pages %}

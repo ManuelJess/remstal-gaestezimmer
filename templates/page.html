@@ -1,5 +1,10 @@
 {% extends "layout.html" %}
-{% block title %}{{ this.title }}{% endblock %}
+{% block title %}
+{% for word in this.title|split(' ') %}
+<span>{{ word }}</span>
+{% endfor %}
+{{ this.title }}
+{% endblock %}
 {% block body %}
   <h2>{{ this.title }}</h2>
   {{ this.body }}
