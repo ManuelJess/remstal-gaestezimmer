@@ -1,28 +1,38 @@
 body {
-    font-family: 'Verdana', sans-serif;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
     margin: 50px 25px;
 }
 
 a {
-    color: #2a99b6;
+    color: black;
 }
 
 a:hover {
-    color: #33bbdf;
+    color: black;
 }
 
 header, footer, div.page {
     width: 760px;
     margin: 0 auto;
-    background: #daeef3;
+    background: white;
     padding: 20px 30px;
 }
 
+header h1, header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 header h1 {
-    color: #169bbd;
+    color: black;
     margin: 0;
     font-weight: normal;
-    font-size: 42px;
+    font-size: 52px;
+}
+
+header h1 * {
+    margin-left: .3em;
 }
 
 header nav ul {
@@ -37,8 +47,16 @@ header nav ul li {
     padding: 0;
 }
 
+header h1 span, header nav a {
+    display: inline-block;
+}
+/* ::first-letter only works on blocks */
+header h1 *::first-letter,
+header nav a::first-letter {
+    color: #FF2600;
+}
 div.page {
-    background: #f1fbfe;
+    background: white;
 }
 
 img {
