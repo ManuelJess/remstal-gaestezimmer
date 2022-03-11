@@ -13,10 +13,10 @@ Um die Webseite zu ändern, entweder lokal installieren und bearbeiten oder dire
 
 - Fotos auch beschriften!
 - Foto Slideshow und Zoom
-- refine contact email with form that triggers the questions I need
-- add legalese
-- get domain for remstal gästezimmer and publish page
-- add links to page on google and gemeinde winterbach
+- Kontaktformular, welches die Buchungsdaten abfragt.
+- add legalese Impressum, Datenschutzaussage, 
+- Eigene Domain for remstal gästezimmer (remstal-gaestezimmer.de, remstal-gästezimmer.de?)
+- Auf Google and Gemeinde Winterbach verlinken
 
 ## Maybe TODO
 
