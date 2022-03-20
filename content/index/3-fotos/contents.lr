@@ -25,9 +25,14 @@ description: Gästezimmer 2
 image: /static/G2 Überblick.jpeg
 
 ##### image #####
-description: Bad im Gästezimmer 1. Die anderen Bäder sind gleich ausgestattet, allerdings anders aufgeteilt.
+description: Dusche im Gästezimmer 3. Die anderen Bäder sind gleich ausgestattet, allerdings anders aufgeteilt.
 -----
-image: /static/G1 Bad.jpeg
+image: /static/G3 Bad 1.jpeg
+
+##### image #####
+description: Waschbecken im Gästezimmer 3. Die anderen Bäder sind gleich ausgestattet, allerdings anders aufgeteilt.
+-----
+image: /static/G3 Bad 2.jpeg
 
 ##### image #####
 description: Küche
