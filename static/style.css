@@ -52,7 +52,8 @@ header h1 span, header nav a {
 }
 /* ::first-letter only works on blocks */
 header h1 *::first-letter,
-header nav a::first-letter {
+header nav a::first-letter,
+h1::first-letter {
     color: #FF2600;
 }
 div.page {
@@ -61,4 +62,10 @@ div.page {
 
 img {
     width: 100%;
+}
+
+[id*=objektbeschreibung] img {
+    float: left;
+    width: 40%;
+    margin-right: 2rem;
 }
