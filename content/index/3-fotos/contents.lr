@@ -10,7 +10,7 @@ blocks:
 slides:
 
 ##### image #####
-description: Gemeinschaftsraum
+description: Gemeinschaftsraum mit Teeküche
 -----
 image: /static/Flur Gemeinschaftsraum 1.jpeg
 
@@ -25,12 +25,12 @@ description: Gästezimmer 2
 image: /static/G2 Überblick.jpeg
 
 ##### image #####
-description: Dusche im Gästezimmer 3. Die anderen Bäder sind gleich ausgestattet, allerdings anders aufgeteilt.
+description: Dusche im Gästezimmer 3. Die anderen Bäder sind gleich ausgestattet, aber anders aufgeteilt.
 -----
 image: /static/G3 Bad 1.jpeg
 
 ##### image #####
-description: Waschbecken im Gästezimmer 3. Die anderen Bäder sind gleich ausgestattet, allerdings anders aufgeteilt.
+description: Waschbecken im Gästezimmer 3. Die anderen Bäder sind gleich ausgestattet, aber anders aufgeteilt.
 -----
 image: /static/G3 Bad 2.jpeg
 
