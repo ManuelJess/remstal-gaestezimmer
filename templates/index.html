@@ -20,6 +20,13 @@
     <div class="section" id="{{ page._id }}">
       <h1>{{ page.title }}</h1>
       {{ page.body }}
+      
+      {% if page.blocks %}
+        {% for item in page.blocks.blocks %}
+          <section>{{ item }}</section>
+        {% endfor %}
+      {% endif %}
+
     </div>
   {% endfor %}
   </div>

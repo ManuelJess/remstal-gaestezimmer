@@ -1,0 +1,26 @@
+{% set carousel_id = 'carousel-' ~ get_random_id() %}
+<div id="{{ carousel_id }}" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    {% for slide in this.slides.blocks %}
+      <button type="button" data-bs-target="#{{ carousel_id }}" data-bs-slide-to="{{ loop.index0 }}" class="{% if loop.first %} active{% endif %}" aria-current="true" aria-label="{{ slide.description }}"></button>
+    {% endfor %}
+  </div>
+  <div class="carousel-inner">
+    {% for slide in this.slides.blocks %}
+      <div class="carousel-item {% if loop.first %}active{% endif %}">
+        <img src="{{ slide.image }}" class="d-block w-100" alt="{{ slide.description }}">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>{{ slide.description }}</h5>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#{{ carousel_id }}" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#{{ carousel_id }}" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>

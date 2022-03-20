@@ -1,0 +1,35 @@
+_model: index-page
+---
+title: Fotos
+---
+body: 
+---
+blocks:
+
+#### carusel ####
+slides:
+
+##### image #####
+description: Gemeinschaftsraum
+-----
+image: /static/Flur Gemeinschaftsraum 1.jpeg
+
+##### image #####
+description: Gästezimmer 1
+-----
+image: /static/G1 Überblick.jpeg
+
+##### image #####
+description: Gästezimmer 2
+-----
+image: /static/G2 Überblick.jpeg
+
+##### image #####
+description: Bad im Gästezimmer 1. Die anderen Bäder sind gleich ausgestattet, allerdings anders aufgeteilt.
+-----
+image: /static/G1 Bad.jpeg
+
+##### image #####
+description: Küche
+-----
+image: /static/Küche 1.jpeg

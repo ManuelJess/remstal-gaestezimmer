@@ -1,0 +1,13 @@
+<h2 >{{ this.title }}</h2>
+<div class="text-block">
+  {{ this.text }} 
+</div>
+
+{# add code like this later to display the attachement list?
+{% set img = record.attachments.images.get(this.image) %}
+{% if img %}
+  <div class="thumbnail-block">
+    <img src="{{ img.thumbnail(480)|url }}" alt="">
+  </div>
+{% endif %}
+#}
