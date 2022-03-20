@@ -15,19 +15,19 @@
       </ul>
     </nav>
   </header>
-  <div class="page">
+  <main class="page">
   {% for page in pages %}
-    <div class="section" id="{{ page._id }}">
+    <section class="section" id="{{ page._id }}">
       <h1>{{ page.title }}</h1>
       {{ page.body }}
       
       {% if page.blocks %}
         {% for item in page.blocks.blocks %}
-          <section>{{ item }}</section>
+          <div class="block">{{ item }}</div>
         {% endfor %}
       {% endif %}
 
-    </div>
+    </section>
   {% endfor %}
-  </div>
+  </main>
 {% endblock %}

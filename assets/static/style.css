@@ -11,7 +11,7 @@ a:hover {
     color: black;
 }
 
-header, footer, div.page {
+header, footer, .page {
     width: 760px;
     margin: 0 auto;
     background: white;
@@ -56,9 +56,11 @@ header nav a::first-letter,
 h1::first-letter {
     color: #FF2600;
 }
-div.page {
+.page {
     background: white;
 }
+
+
 
 img {
     width: 100%;
