@@ -1,10 +1,17 @@
 <!doctype html>
-<meta charset="utf-8">
-<link rel="stylesheet" href="{{ '/static/style.css'|url }}">
-<title>{% block title %}Wilkommen{% endblock %} — Winterbacher Gästezimmer</title>
-<body>
-  {% block body %}{% endblock %}
-  <footer title="Lezte aktualisierung: {{ datetime.now(tz=ZoneInfo('Europe/Berlin')) | datetimeformat('full') }}">
-    &copy; {{ date.today().year }} Winterbacher Gästezimmer
-  </footer>
-</body>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{{ '/static/bootstrap-5.1.3/css/bootstrap.min.css'|url }}">
+    <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}Wilkommen{% endblock %} — Winterbacher Gästezimmer</title>
+  </head>
+  <body>
+    {% block body %}{% endblock %}
+    <footer title="Lezte aktualisierung: {{ datetime.now(tz=ZoneInfo('Europe/Berlin')) | datetimeformat('full') }}">
+      &copy; {{ date.today().year }} Winterbacher Gästezimmer
+    </footer>
+    <script src="{{ '/static/bootstrap-5.1.3/js/bootstrap.bundle.min.js'|url }}"></script>
+  </body>
+</html>
