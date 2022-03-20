@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
-  {% set pages = site.query( this.path + '/index').include_undiscoverable(true).all() %}
+  {% set pages = site.query( this.path + '/index').include_undiscoverable(True).all() %}
   <header>
     <h1>{% for word in this.title.split() %}
       <span>{{ word }}</span>
