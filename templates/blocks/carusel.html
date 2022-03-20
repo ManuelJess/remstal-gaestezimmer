@@ -8,7 +8,7 @@
   <div class="carousel-inner">
     {% for slide in this.slides.blocks %}
       <div class="carousel-item {% if loop.first %}active{% endif %}">
-        <img src="{{ slide.image }}" class="d-block w-100" alt="{{ slide.description }}">
+        <img src="{{ slide.image | url }}" class="d-block w-100" alt="{{ slide.description }}">
         <div class="carousel-caption d-none d-md-block">
           <h5>{{ slide.description }}</h5>
         </div>
