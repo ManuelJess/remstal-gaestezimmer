@@ -53,9 +53,19 @@ header h1 span, header nav a {
 /* ::first-letter only works on blocks */
 header h1 *::first-letter,
 header nav a::first-letter,
-h1::first-letter {
+main h1::first-letter,
+main h1 > *::first-letter,
+main h2::first-letter,
+main h2 > *::first-letter
+{
     color: #FF2600;
 }
+h1 > *,
+h2 > *
+{
+    display: inline-block;
+}
+
 .page {
     background: white;
 }
