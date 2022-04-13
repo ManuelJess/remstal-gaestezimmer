@@ -13,17 +13,17 @@ Um die Webseite zu ändern, entweder lokal installieren und bearbeiten oder dire
 
 - Es hängt momentan alles unter einander, wenn man einen Punkt aufmacht, muss man immer wieder ganz nach oben scrollen, um einen anderen Punkt aufzurufen - nervig.
 - Wir sollten 1 nettes Zimmerbild als erstes haben, statt dem Grundriss. Der kann zu den Fotos.
-- Inga muss unbedingt über ein schönes Logo nachdenken, so sieht es noch sehr behelfsmäßig aus.
 - Irgendeine Art Hintergrund wäre nett - um gemütliche Atmosphäre zu vermitteln.
 - Es fehlt noch ein Disclaimer - wegen der Verlinkung und das wir keine Gewährleistung übernehmen - so irgendetwas. Halt ein Standardspruch.
 
 ## TODO
 
+- jeden Anfangsbuchstaben in überschriften einfärben
+- extrapreise für ferienwohnung angeben
+- Mobil und Tablet modus fixen
 - Kontaktformular, welches die Buchungsdaten abfragt.
-- add legalese Impressum, Datenschutzaussage, 
 - Eigene Domain for remstal gästezimmer (remstal-gaestezimmer.de, remstal-gästezimmer.de?)
 - Auf Google and Gemeinde Winterbach verlinken
-- extrapreise für ferienwohnung angeben
 
 ## Maybe TODO
 
