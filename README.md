@@ -18,8 +18,6 @@ Um die Webseite zu ändern, entweder lokal installieren und bearbeiten oder dire
 
 ## TODO
 
-- jeden Anfangsbuchstaben in überschriften einfärben
-- extrapreise für ferienwohnung angeben
 - Mobil und Tablet modus fixen
 - Kontaktformular, welches die Buchungsdaten abfragt.
 - Eigene Domain for remstal gästezimmer (remstal-gaestezimmer.de, remstal-gästezimmer.de?)
