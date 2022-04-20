@@ -19,6 +19,9 @@ Diese Webseite steht unter einer [CC-BY-SA Lizenz](https://creativecommons.org/l
 - Wir sollten 1 nettes Zimmerbild als erstes haben, statt dem Grundriss. Der kann zu den Fotos.
 - Irgendeine Art Hintergrund wäre nett - um gemütliche Atmosphäre zu vermitteln.
 - Es fehlt noch ein Disclaimer - wegen der Verlinkung und das wir keine Gewährleistung übernehmen - so irgendetwas. Halt ein Standardspruch.
+- Grundriss feedback:
+  - Bitte die Beschriftung beim Grundriss komplett in 1 Farbe machen (jetzt blau und schwarz) - das kann ich nicht.
+  - Und statt „WC“ würde ich das ganze „Bad“ nennen. Den „ASR“ würde ich „Arbeitsraum / Bad für G3“ nennen.
 
 ## TODO
 
