@@ -74,10 +74,11 @@ h2 > *
 
 img {
     width: 100%;
+    
 }
 
 [id*=objektbeschreibung] img {
-    float: left;
-    width: 40%;
-    margin-right: 2rem;
+    float: right;
+    width: 60%;
+    margin-left: 2rem;
 }
