@@ -1,0 +1,11 @@
+<nav class="navbar navbar-expand-sm">
+    <input type="checkbox" id="navbar-toggle-checkbox">
+    <label for="navbar-toggle-checkbox" class="navbar-brand navbar-toggle d-sm-none float-right" aria-label="Navigation Umschalten">
+        <span></span>
+    </label>
+    <ul class="navbar-nav collapse navbar-collapse">
+    {%- for page in pages %}
+        <li><a href="#{{ page._id }}">{{ page.title }}</a></li>
+    {% endfor -%}
+    </ul>
+</nav>

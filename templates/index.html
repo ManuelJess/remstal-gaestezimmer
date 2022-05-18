@@ -3,17 +3,12 @@
 {% block body %}
   {% set pages = site.query( this.path + '/index').include_undiscoverable(True).all() %}
   <header>
-    <h1>{% for word in this.title.split() %}
+    <h1>
+      {%- for word in this.title.split() %}
       <span>{{ word }}</span>
-      {% endfor %}
-      </h1>
-    <nav>
-      <ul>
-        {% for page in pages %}
-        <li><a href="#{{ page._id }}">{{ page.title }}</a></li>
-        {% endfor %}
-      </ul>
-    </nav>
+      {% endfor -%}
+    </h1>
+    {% include 'includes/navigation.html' %}
   </header>
   <main class="page">
   {% for page in pages %}
