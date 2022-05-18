@@ -21,7 +21,7 @@ header {
 
 section {
     /* prevent anchor links from scolling behind the sticky header */
-    scroll-margin: 8rem;
+    scroll-margin: 135px;
 }
 
 header, footer, .page {
