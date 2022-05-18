@@ -29,6 +29,7 @@ Diese Webseite steht unter einer [CC-BY-SA Lizenz](https://creativecommons.org/l
 - Kontaktformular, welches die Buchungsdaten abfragt.
 - Eigene Domain for remstal gästezimmer (remstal-gaestezimmer.de, remstal-gästezimmer.de?)
 - Auf Google and Gemeinde Winterbach verlinken
+- Add info pdfs / ensure that all info from the pdfs is on the website
 
 ## Maybe TODO
 
