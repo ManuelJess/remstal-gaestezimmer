@@ -5,6 +5,5 @@ locale = de
 [servers.github]
 enabled = yes
 name = GitHub pages on repo
-target = ghpages://dwt/remstal-gaestezimmer
-# ?cname=remstal-gaestezimmer.de
+target = ghpages://dwt/remstal-gaestezimmer?cname=remstal-gaestezimmer.de
 default = yes
