@@ -13,19 +13,7 @@ Diese Webseite steht unter einer [CC-BY-SA Lizenz](https://creativecommons.org/l
     pip install lektor
     lektor server
 
-## Feedback Rodika
-
-- Irgendeine Art Hintergrund wäre nett - um gemütliche Atmosphäre zu vermitteln.
-- Grundriss feedback:
-  - Bitte die Beschriftung beim Grundriss komplett in 1 Farbe machen (jetzt blau und schwarz) - das kann ich nicht.
-  - Und statt „WC“ würde ich das ganze „Bad“ nennen. Den „ASR“ würde ich „Arbeitsraum / Bad für G3“ nennen.
-
 ## TODO
-
-- Eigene Domain for remstal gästezimmer (remstal-gaestezimmer.de, remstal-gästezimmer.de?)
-- Auf Google and Gemeinde Winterbach verlinken
-
-## Maybe later
-
+- Automatisches Deploy auf github geht derzeit nicht
 - add js form that generates an (example) email
 - add caldav integration that shows when we have free space left
