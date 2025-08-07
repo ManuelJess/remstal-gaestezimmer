@@ -14,6 +14,5 @@ Diese Webseite steht unter einer [CC-BY-SA Lizenz](https://creativecommons.org/l
     lektor server
 
 ## TODO
-- Automatisches Deploy auf github geht derzeit nicht
 - add js form that generates an (example) email
 - add caldav integration that shows when we have free space left
