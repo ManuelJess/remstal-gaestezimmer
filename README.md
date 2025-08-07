@@ -2,6 +2,12 @@
 
 Um die Webseite zu ändern, entweder lokal installieren und bearbeiten oder direkt auf GitHub. GitHub änderungen werden sofort deployed, lokale Änderungen nach push.
 
+## Änderungen kontrollieren bevor der GitHub Cache aktualisiert wird
+
+https://remstal-gaestezimmer.de/?cachebreak=1
+
+Aufrufen. Für jedes mal bei dem man die 1 hochzählt, erhällt man ein mal die Webseite am Cache vorbei.
+
 ## Lizenz
 
 Diese Webseite steht unter einer [CC-BY-SA Lizenz](https://creativecommons.org/licenses/by-sa/4.0/deed.de)
